@@ -1,9 +1,9 @@
 #README
-Create demoapp-04
-Create database with scaffold
-Add lastname to person
-Add name Arrays and lastname Arrays in db/seeds.rb
-Create random person names and lastname with "for loops" and using arrays
+######Create demoapp-04
+######Create database with scaffold
+######Add lastname to person
+######Add name Arrays and lastname Arrays in db/seeds.rb
+######Create random person names and lastname with "for loops" and using arrays
 
 
 #####Create demoapp-04

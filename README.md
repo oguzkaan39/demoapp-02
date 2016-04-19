@@ -21,7 +21,8 @@
 ```rake db:migrate```
 #####Add arrays and create random person names and lastnames
 ######db/seeds.rb data
-```isimler = ["Atilla", "Oğuz", "Kaan", "Koray", "Deniz", "Mahmut", "Mehmet", "Mahmut"]
+```ruby
+isimler = ["Atilla", "Oğuz", "Kaan", "Koray", "Deniz", "Mahmut", "Mehmet", "Mahmut"]
 soyisimler = ["Gündüz", "Almaz", "Yıldırmaz", "Koç", "Deveci"]
 20.times do |i|
   Person.create name: " #{isimler.sample}", lastname: "#{soyisimler.sample}"

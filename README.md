@@ -26,7 +26,8 @@ isimler = ["Atilla", "Oğuz", "Kaan", "Koray", "Deniz", "Mahmut", "Mehmet", "Mah
 soyisimler = ["Gündüz", "Almaz", "Yıldırmaz", "Koç", "Deveci"]
 20.times do |i|
   Person.create name: " #{isimler.sample}", lastname: "#{soyisimler.sample}"
-  end```
+  end
+```
 
 #####Run rake command
 
